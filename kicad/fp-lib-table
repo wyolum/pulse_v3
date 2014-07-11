@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pulse)(type Legacy)(uri ${KIPRJMOD}/pulse_v3_Libs/pulse_v3_fp.mod)(options "")(descr ""))
+)
