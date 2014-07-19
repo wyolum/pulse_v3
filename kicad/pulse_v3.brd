@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Friday 11 July 2014 09:59:54 AM IST
+PCBNEW-BOARD Version 2 date Monday 14 July 2014 12:06:21 PM IST
 
 # Created by Pcbnew(2014-05-21 BZR 4875)-product
 
@@ -7,7 +7,6 @@ encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 1FFF8001
-VisibleLayers 1FFF0000
 Links 37
 NoConn 0
 Di 19.372999 15.3195 66.950835 46.458
@@ -68,7 +67,7 @@ SolderMaskMinWidth 0
 GridOrigin 0 0
 AuxiliaryAxisOrg 0 0
 VisibleElements 7FFFFF7F
-PcbPlotParams (pcbplotparams (layerselection 301760513) (usegerberextensions false) (excludeedgelayer false) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory pulse_v3_Gerber/))
+PcbPlotParams (pcbplotparams (layerselection 284983297) (usegerberextensions true) (excludeedgelayer false) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory pulse_v3_Gerber/))
 $EndSETUP
 
 $EQUIPOT

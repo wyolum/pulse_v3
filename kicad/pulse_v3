@@ -1,0 +1,18 @@
+Reference, Value, Footprint, Datasheet, RS
+PB3,ADC3,Pad01,
+P1,12V,Header_12V,
+U1,ATTINY85-20PU,DIP-8__300,
+P3,ISP,pin_strip_6b,
+P2,LED,pin_strip_3,
+U2,LP2950-50LPRE3,TO-92-LDO_LP2950,,LP2950-50LPRE3
+D1,Z4V7,diode_do35_vert,1N5230BTR,BZX79-C4V7,113
+C1,10n,Capacitor4MMDisc,
+C2,100n,Capacitor4MMDisc,
+Q1,BS270,Housings_TO-92:TO-92-FET-molded-wide-universal-DGS,,BS170RLRAG
+R3,2k2,res_vert,
+R1,4k7,res_vert,
+C4,100n,Capacitor4MMDisc,
+C3,4u7,Capacitor6MMDisc,
+D3,SB040-E3/54,diode_do35_vert,,1N5819RL
+P4,POT,pin_strip_3,
+P5,PWM,pin_strip_3,

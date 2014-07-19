@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Friday 11 July 2014 09:48:56 AM IST
+PCBNEW-BOARD Version 2 date Friday 11 July 2014 09:59:54 AM IST
 
 # Created by Pcbnew(2014-05-21 BZR 4875)-product
 
@@ -253,8 +253,8 @@ Po 1.25 0
 $EndPAD
 $SHAPE3D
 Na "pulse_3D/cnp_6mm_disc.wrl"
-Sc 1 1 1
-Of 0 0 0
+Sc 0.5 0.5 0.5
+Of 0 0 0.025
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE Capacitor4MMDisc
@@ -288,7 +288,7 @@ Po 1.25 0
 $EndPAD
 $SHAPE3D
 Na "pulse_3D/cnp_6mm_disc.wrl"
-Sc 0.3 0.3 0.3
+Sc 0.5 0.5 0.5
 Of 0 0 0.025
 Ro 0 0 0
 $EndSHAPE3D
@@ -323,7 +323,7 @@ Po 1.25 0
 $EndPAD
 $SHAPE3D
 Na "pulse_3D/cnp_6mm_disc.wrl"
-Sc 0.4 0.4 0.4
+Sc 0.5 0.5 0.5
 Of 0 0 0.025
 Ro 0 0 0
 $EndSHAPE3D
@@ -358,8 +358,8 @@ Po 1.25 0
 $EndPAD
 $SHAPE3D
 Na "pulse_3D/cnp_6mm_disc.wrl"
-Sc 1 1 1
-Of 0 0 0
+Sc 0.5 0.5 0.5
+Of 0 0 0.025
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE Capacitor4MMDisc
@@ -698,7 +698,7 @@ $SHAPE3D
 Na "pulse_3D/r_v_4K7.wrl"
 Sc 0.3937 0.3937 0.3937
 Of 0 0 0
-Ro 0 0 0
+Ro 0 0 180
 $EndSHAPE3D
 $EndMODULE res_vert
 $MODULE res_vert
@@ -731,7 +731,7 @@ $SHAPE3D
 Na "pulse_3D/r_v_2K2.wrl"
 Sc 0.3937 0.3937 0.3937
 Of 0 0 0
-Ro 0 0 0
+Ro 0 0 180
 $EndSHAPE3D
 $EndMODULE res_vert
 $MODULE Lum_Logo
@@ -1217,7 +1217,7 @@ $SHAPE3D
 Na "pulse_3D/do35_0I100V.wrl"
 Sc 1 1 1
 Of 0 0 0
-Ro 0 0 0
+Ro 0 0 180
 $EndSHAPE3D
 $EndMODULE diode_do35_vert
 $MODULE DIP-8__300
