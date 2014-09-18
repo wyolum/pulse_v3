@@ -1,9 +1,9 @@
-Drill report for /home/anool/Desktop/pulse_v3/pulse_v3.brd
-Created on Wednesday 09 July 2014 05:18:34 PM IST
+Drill report for /home/anool/projects-git/pulse_v3/kicad/pulse_v3.brd
+Created on Thursday 18 September 2014 04:54:20 PM IST
 Drill report for plated through holes :
 T1  0.64mm  0.025"  (3 holes)
-T2  0.80mm  0.031"  (32 holes)
-T3  1.10mm  0.043"  (18 holes)
+T2  0.80mm  0.031"  (30 holes)
+T3  1.10mm  0.043"  (20 holes)
 
 Total plated holes count 53
 

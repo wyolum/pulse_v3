@@ -1,147 +1,122 @@
-Cmp-Mod V01 Genere par PcbNew le Wednesday 09 July 2014 01:38:11 PM IST
+Cmp-Mod V01 Created by Cvpcb (2014-05-21 BZR 4875)-product   date = Thursday 18 September 2014 04:51:01 PM IST
 
 BeginCmp
-TimeStamp = 53B41482
-Path = 
-Reference = Logo;
-ValeurCmp = VAL**;
-IdModule  = Lum_Logo;
-EndCmp
-
-BeginCmp
-TimeStamp = 53BBFED0
-Path = /4FE06AE0
-Reference = U1;
-ValeurCmp = ATTINY45-20PU;
-IdModule  = DIP-8__300;
-EndCmp
-
-BeginCmp
-TimeStamp = 53BBFECB
-Path = /53B2C304
-Reference = R3;
-ValeurCmp = 2k2;
-IdModule  = res_vert;
-EndCmp
-
-BeginCmp
-TimeStamp = 53BBFEC6
-Path = /53B2C486
-Reference = R1;
-ValeurCmp = 4k7;
-IdModule  = res_vert;
-EndCmp
-
-BeginCmp
-TimeStamp = 53BBFEBB
-Path = /4FE302FC
-Reference = PB3;
-ValeurCmp = ADC3;
-IdModule  = Pad01;
-EndCmp
-
-BeginCmp
-TimeStamp = 53BBFEB5
-Path = /53B69D1D
-Reference = P5;
-ValeurCmp = PWM;
-IdModule  = pin_strip_3;
-EndCmp
-
-BeginCmp
-TimeStamp = 53BBFEAF
-Path = /53B6969C
-Reference = P4;
-ValeurCmp = POT;
-IdModule  = pin_strip_3;
-EndCmp
-
-BeginCmp
-TimeStamp = 53BBFEA6
-Path = /4FC76A52
-Reference = P3;
-ValeurCmp = ISP;
-IdModule  = pin_strip_6b;
-EndCmp
-
-BeginCmp
-TimeStamp = 53BBFEA0
-Path = /53B29570
-Reference = P2;
-ValeurCmp = LED;
-IdModule  = pin_strip_3;
-EndCmp
-
-BeginCmp
-TimeStamp = 53BBFE8C
-Path = /53B2CB7F
-Reference = C4;
-ValeurCmp = 100n;
-IdModule  = Capacitor4MMDisc;
-EndCmp
-
-BeginCmp
-TimeStamp = 53BBFE87
-Path = /53B2CC7F
-Reference = C3;
-ValeurCmp = 4u7;
-IdModule  = Capacitor6MMDisc;
-EndCmp
-
-BeginCmp
-TimeStamp = 53BBFE82
-Path = /53B2B6AB
-Reference = C2;
-ValeurCmp = 100n;
-IdModule  = Capacitor4MMDisc;
-EndCmp
-
-BeginCmp
-TimeStamp = 53BBFE7D
-Path = /53B2B499
+TimeStamp = /53B2B499;
 Reference = C1;
 ValeurCmp = 10n;
-IdModule  = Capacitor4MMDisc;
+IdModule  = pulse:Capacitor4MMDisc;
 EndCmp
 
 BeginCmp
-TimeStamp = 53BBFE91
-Path = /53B2AFF2
+TimeStamp = /53B2B6AB;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = pulse:Capacitor4MMDisc;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B2CC7F;
+Reference = C3;
+ValeurCmp = 4u7;
+IdModule  = pulse:Capacitor6MMDisc;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B2CB7F;
+Reference = C4;
+ValeurCmp = 1u X7R;
+IdModule  = pulse:Capacitor4MMDisc;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B2AFF2;
 Reference = D1;
 ValeurCmp = Z4V7;
-IdModule  = diode_do35_vert;
+IdModule  = pulse:diode_do35_vert;
 EndCmp
 
 BeginCmp
-TimeStamp = 53BBFE96
-Path = /53B3DB2B
+TimeStamp = /53B3DB2B;
 Reference = D3;
 ValeurCmp = SB040-E3/54;
-IdModule  = diode_do35_vert;
+IdModule  = pulse:diode_do35_vert;
 EndCmp
 
 BeginCmp
-TimeStamp = 53BBFEDB
-Path = /53B29B24
-Reference = U2;
-ValeurCmp = LP2950-50LPRE3;
-IdModule  = TO-92-LDO_LP2950;
-EndCmp
-
-BeginCmp
-TimeStamp = 53BBFE9B
-Path = /4FE198D2
+TimeStamp = /4FE198D2;
 Reference = P1;
 ValeurCmp = 12V;
-IdModule  = Header_12V;
+IdModule  = pulse:Header_12V;
 EndCmp
 
 BeginCmp
-TimeStamp = 53BBFEBF
-Path = /53B2BFBA
+TimeStamp = /53B29570;
+Reference = P2;
+ValeurCmp = LED;
+IdModule  = pulse:pin_strip_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC76A52;
+Reference = P3;
+ValeurCmp = ISP;
+IdModule  = pulse:pin_strip_6b;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B6969C;
+Reference = P4;
+ValeurCmp = POT;
+IdModule  = pulse:pin_strip_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B69D1D;
+Reference = P5;
+ValeurCmp = PWM;
+IdModule  = pulse:pin_strip_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE302FC;
+Reference = PB3;
+ValeurCmp = ADC3;
+IdModule  = pulse:Pad01;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B2BFBA;
 Reference = Q1;
 ValeurCmp = BS270;
-IdModule  = Housings_TO-92:TO-92-FET-molded-wide-universal-DGS;
+IdModule  = pulse:TO-92-FET-molded-wide-universal-DGS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B2C486;
+Reference = R1;
+ValeurCmp = 4k7;
+IdModule  = pulse:res_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B2C304;
+Reference = R3;
+ValeurCmp = 2k2;
+IdModule  = pulse:res_vert;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE06AE0;
+Reference = U1;
+ValeurCmp = ATTINY85-20PU;
+IdModule  = pulse:DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B29B24;
+Reference = U2;
+ValeurCmp = LP2950-50LPRE3;
+IdModule  = pulse:TO-92-LDO_LP2950;
 EndCmp
 
 EndListe
